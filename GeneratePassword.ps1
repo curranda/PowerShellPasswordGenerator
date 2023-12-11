@@ -30,7 +30,7 @@ for ($i = 1; $i -le $Length; $i++)
     }
     if ($Selector -eq 4)
     {
-        $Password = $Password + (get-random $LowerCase).ToString()
+        $Password = $Password + (get-random $UpperCase).ToString()
     }
 }
 
